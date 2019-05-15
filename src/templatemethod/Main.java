@@ -6,10 +6,10 @@ public class Main {
         BookReader book1 = new ReadfromFile();
         book1.readBook();
 
-//        BookReader book2 = new ReadfromArray();
-//        book2.readBook();
-//        
-//        BookReader user = new ReadFromUser();
-//        user.readBook();
+        BookReader book2 = new ReadfromArray();
+        book2.readBook();
+        
+        BookReader user = new ReadFromUser();
+        user.readBook();
   }
 }
